@@ -1290,7 +1290,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$13" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="SCL"/>
 <part name="U$6" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
 </parts>
 <sheets>

@@ -427,9 +427,9 @@ I'm using it for where to start volate in.</description>
 <package name="POTENTIOMETER" urn="urn:adsk.eagle:footprint:22673/1" locally_modified="yes">
 <description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
 Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
-<wire x1="-5.81" y1="-3.7" x2="5.81" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="-3.7" x2="7.08" y2="-3.7" width="0.2032" layer="21"/>
 <wire x1="-5.81" y1="-2.97" x2="5.81" y2="-2.97" width="0.2032" layer="21"/>
-<wire x1="-5.81" y1="4.13" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="4.13" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
 <wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
@@ -438,8 +438,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
-<wire x1="-5.81" y1="-3.7" x2="-5.81" y2="4.13" width="0.2032" layer="21"/>
-<wire x1="5.81" y1="-3.7" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="-3.7" x2="-7.08" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="7.08" y1="-3.7" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
@@ -452,9 +452,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
 <wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
-<pad name="1" x="-3.476" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
-<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
-<pad name="3" x="3.73" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
+<pad name="1" x="-4.746" y="-0.889" drill="0.000253125" diameter="3.81" shape="offset" rot="R90"/>
+<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="3.81" shape="offset" rot="R90"/>
+<pad name="3" x="5" y="-0.889" drill="0.000253125" diameter="3.81" shape="offset" rot="R90"/>
 <text x="-7.874" y="4.826" size="1.27" layer="25">&gt;NAME</text>
 <text x="1.397" y="4.953" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -530,28 +530,36 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-5.08" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.000253125" diameter="1.6764" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.000253125" diameter="1.6764" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="-1.016" y1="-5.08" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-5.08" x2="1.016" y2="-5.08" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="0.000253125" diameter="3.175" shape="long"/>
+<pad name="2" x="0" y="2.54" drill="0.000253125" diameter="3.175" shape="long"/>
+<text x="-2.921" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.191" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
-<package name="PAD-1PIN-RECTANGLE-125MIL">
+<package name="PAD-1PIN-RECTANGLE-150MIL">
 <description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
-<pad name="PAD$1" x="-0.635" y="0" drill="0.000253125" diameter="3.175" shape="offset"/>
+<pad name="PAD$1" x="-0.635" y="0" drill="0.000253125" diameter="3.81" shape="offset"/>
 </package>
 <package name="DRILL-HOLE-4MM">
 <pad name="DRILL$1" x="0" y="0" drill="0.01" diameter="4"/>
+</package>
+<package name="PAD-RECTANGLE-200MIL">
+<description>Rounded rectangle solder pad - 200MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="5.08" shape="long"/>
+</package>
+<package name="PAD-RECTANGLE-175MIL">
+<description>Rounded rectangle solder pad - 150MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="4.445" shape="long"/>
 </package>
 </packages>
 <packages3d>
@@ -1130,13 +1138,29 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </devices>
 </deviceset>
 <deviceset name="PAD-1PIN-RECTANGLE">
-<description>&lt;h2&gt;3 Pin - Rounded Rectangle Solder Pad&lt;/h2&gt;
+<description>&lt;h2&gt;1 Pin - Rounded Rectangle Solder Pad&lt;/h2&gt;
 &lt;li&gt;&lt;b&gt;125MIL&lt;/li&gt;&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PAD-1PIN-SOLDER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PAD-1PIN-RECTANGLE-125MIL">
+<device name="" package="PAD-1PIN-RECTANGLE-150MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="200" package="PAD-RECTANGLE-200MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="175" package="PAD-RECTANGLE-175MIL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="PAD$1"/>
 </connects>

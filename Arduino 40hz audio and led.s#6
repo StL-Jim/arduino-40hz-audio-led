@@ -1276,8 +1276,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="VOLUME" library="jim_muppet_parts" deviceset="POTENTIOMETER" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="100k"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R7" library="jim_muppet_parts" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="U$4" library="jim_muppet_parts" deviceset="PAD-2PIN-RECTANGLE" device=""/>
-<part name="U$6" library="jim_muppet_parts" deviceset="PAD-2PIN-RECTANGLE" device=""/>
 <part name="U$7" library="jim_muppet_parts" deviceset="PAD-2PIN-RECTANGLE" device=""/>
 <part name="U$5" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="+/- 6v virt gnd"/>
 <part name="P+3" library="jim_muppet_parts" deviceset="+6V" device=""/>
@@ -1292,6 +1290,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$13" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
+<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$6" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
 </parts>
 <sheets>
 <sheet>
@@ -1405,8 +1405,6 @@ D9 - Jumpered to D8 for frequency check
 <attribute name="NAME" x="117.8814" y="19.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$4" gate="G$1" x="45.72" y="48.26" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="45.72" y="35.56" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="78.74" y="83.82" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="20.32" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.97" y="0" size="1.778" layer="95" rot="R180"/>
@@ -1444,6 +1442,8 @@ D9 - Jumpered to D8 for frequency check
 <instance part="U$11" gate="G$1" x="-7.62" y="55.88" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="-7.62" y="45.72" smashed="yes"/>
 <instance part="U$13" gate="G$1" x="-7.62" y="35.56" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="48.26" y="48.26" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="48.26" y="35.56" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1662,13 +1662,11 @@ D9 - Jumpered to D8 for frequency check
 <pinref part="U$1" gate="G$1" pin="A4"/>
 <wire x1="73.66" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
 <wire x1="55.88" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$2"/>
 <wire x1="50.8" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="35.56" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A5"/>

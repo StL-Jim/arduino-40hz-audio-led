@@ -1287,7 +1287,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$3" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="200" value="SINE out"/>
 <part name="U$2" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="-6v test point"/>
 <part name="U$8" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="+6v test point"/>
-<part name="U$9" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device=""/>
+<part name="U$9" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
 <part name="U$10" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
