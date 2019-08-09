@@ -1229,23 +1229,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.9144" drill="0">
-<clearance class="0" value="0.762"/>
+<class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Thin20" width="0.508" drill="0">
-<clearance class="1" value="0.508"/>
+<class number="1" name="Thin20" width="0" drill="0">
 </class>
-<class number="2" name="Medium25" width="0.635" drill="0">
-<clearance class="2" value="0.635"/>
+<class number="2" name="Medium25" width="0" drill="0">
 </class>
-<class number="3" name="Medium30" width="0.762" drill="0">
-<clearance class="3" value="0.762"/>
+<class number="3" name="Medium30" width="0" drill="0">
 </class>
-<class number="4" name="Large50" width="1.27" drill="0">
-<clearance class="4" value="0.762"/>
+<class number="4" name="Large50" width="0" drill="0">
 </class>
-<class number="5" name="Large100" width="2.54" drill="0">
-<clearance class="5" value="0.762"/>
+<class number="5" name="Large100" width="0" drill="0">
 </class>
 </classes>
 <parts>

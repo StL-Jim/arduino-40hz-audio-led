@@ -656,24 +656,24 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="22.352" y="65.024" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.352" y="60.579" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="22.352" y="63.119" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08439" x="-10.668" y="106.934" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.352" y="69.977" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C2" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="100uF" x="16.256" y="51.308" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.256" y="46.609" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="16.256" y="49.149" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08439" x="-29.464" y="93.218" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.256" y="56.261" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="16.51" y="56.261" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="69.342" y="31.496" smashed="yes">
-<attribute name="NAME" x="65.659" y="33.401" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="67.691" y="33.655" size="1.27" layer="25" font="vector"/>
 <attribute name="PROD_ID" value="JIM-CAP Large SMT" x="87.122" y="-25.654" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="65.405" y="28.321" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="66.421" y="27.813" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C4" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="41.656" y="25.908" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.751" y="22.225" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="39.751" y="25.019" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="PROD_ID" value="JIM-CAP Large SMT" x="98.806" y="55.118" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="44.831" y="21.971" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="45.085" y="22.987" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C5" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="57.404" y="9.398" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.309" y="13.081" size="1.27" layer="25" font="vector" rot="R270"/>
@@ -681,17 +681,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.229" y="13.335" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C6" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="68.326" y="14.986" smashed="yes" rot="R180">
-<attribute name="NAME" x="72.009" y="13.081" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="69.723" y="18.161" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="PROD_ID" value="JIM-CAP Large SMT" x="16.256" y="72.136" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="72.263" y="18.161" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="70.993" y="12.827" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC1" library="jim_muppet_parts" package="78XXL" value="LM7805" x="17.78" y="100.33" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.86" y="104.14" size="1.778" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="20.32" y="104.267" size="1.778" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="20.32" y="99.822" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="17.399" y="106.426" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="IC2" library="jim_muppet_parts" package="78XXL" value="IRL-Z44N" x="69.342" y="78.486" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.422" y="82.296" size="1.778" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="71.882" y="82.423" size="1.778" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="72.898" y="70.866" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.691" y="84.328" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="IC3" library="jim_muppet_parts" package="DIL08" value="LM741" x="21.082" y="26.67" smashed="yes">
 <attribute name="NAME" x="15.748" y="23.749" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -699,42 +699,42 @@ design rules under a new name.</description>
 </element>
 <element name="P+1" library="jim_muppet_parts" package="POWER-IN-PAD" value="+12V" x="8.128" y="42.418" smashed="yes" rot="R180"/>
 <element name="R1" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="40.894" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.753" y="38.989" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="54.864" y="41.275" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="50.673" y="43.561" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="55.372" y="43.561" size="1.016" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R2" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="31.496" smashed="yes">
-<attribute name="NAME" x="49.403" y="33.401" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="50.292" y="31.115" size="0.8128" layer="21" font="vector" ratio="15"/>
+<attribute name="NAME" x="49.911" y="33.401" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="53.848" y="33.401" size="0.8128" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="R3" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.753" y="19.685" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="54.864" y="21.971" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="50.927" y="24.257" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="55.372" y="24.257" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R4" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="67.564" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="70.739" y="19.685" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="69.85" y="21.971" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="66.675" y="24.257" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="70.358" y="24.257" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R5" library="jim_muppet_parts" package="AXIAL-0.4" value="1k" x="6.35" y="29.972" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.445" y="26.797" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="6.731" y="27.686" size="0.8128" layer="21" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="9.271" y="30.607" size="1.016" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="9.271" y="28.194" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R6" library="jim_muppet_parts" package="AXIAL-0.4" value="1k" x="11.684" y="14.478" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.589" y="17.653" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="11.303" y="16.764" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="13.589" y="16.129" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="13.843" y="13.716" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$1" library="jim_muppet_parts" package="ARDUINO-NANO" value="ARDUINO-NANO" x="52.578" y="64.516" smashed="yes"/>
 <element name="P+2" library="jim_muppet_parts" package="POWER-IN-PAD" value="+5V" x="10.16" y="73.406" smashed="yes"/>
 <element name="DUTY-CYCLE" library="jim_muppet_parts" package="POTENTIOMETER" package3d_urn="urn:adsk.eagle:package:22726/1" value="10K" x="22.352" y="87.884" smashed="yes">
-<attribute name="NAME" x="10.16" y="94.996" size="1.27" layer="25"/>
-<attribute name="VALUE" x="23.749" y="94.107" size="1.27" layer="27"/>
+<attribute name="NAME" x="18.034" y="74.168" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="26.543" y="81.661" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="VOLUME" library="jim_muppet_parts" package="POTENTIOMETER" package3d_urn="urn:adsk.eagle:package:22726/1" value="100k" x="61.722" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.596" y="98.044" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="60.325" y="97.917" size="1.27" layer="27" rot="R180"/>
+<attribute name="NAME" x="59.944" y="98.552" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="67.437" y="98.425" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R7" library="jim_muppet_parts" package="AXIAL-0.4" value="" x="35.56" y="16.002" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.465" y="19.177" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="35.179" y="18.288" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
+<element name="R7" library="jim_muppet_parts" package="AXIAL-0.4" value="600R" x="35.56" y="16.002" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.719" y="14.351" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="37.465" y="18.796" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$7" library="jim_muppet_parts" package="PAD-2PIN-RECTANGLE-50MIL" value="PAD-2PIN-RECTANGLE" x="11.176" y="64.008" smashed="yes"/>
 <element name="U$5" library="jim_muppet_parts" package="PROBE_POINT_1" value="+/- 6v virt gnd" x="9.906" y="10.668" smashed="yes">
@@ -743,16 +743,16 @@ design rules under a new name.</description>
 </element>
 <element name="P+3" library="jim_muppet_parts" package="POWER-IN-PAD" value="+6V" x="70.612" y="64.008" smashed="yes" rot="R90"/>
 <element name="JP2" library="jim_muppet_parts" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="32.512" y="55.372" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.972" y="57.023" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="34.544" y="51.435" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="29.972" y="52.451" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="JP3" library="jim_muppet_parts" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="30.988" y="73.152" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.528" y="71.501" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="33.528" y="76.073" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="jim_muppet_parts" package="AXIAL-0.4" value="" x="34.036" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.941" y="36.195" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="33.655" y="35.306" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
+<element name="R8" library="jim_muppet_parts" package="AXIAL-0.4" value="4k" x="34.036" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.195" y="31.623" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="35.941" y="34.544" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$3" library="jim_muppet_parts" package="PAD-RECTANGLE-200MIL" value="SINE out" x="72.39" y="7.366" smashed="yes" rot="R180">
 <attribute name="NAME" x="75.5396" y="5.588" size="1.778" layer="25" ratio="10" rot="R180"/>
@@ -771,8 +771,13 @@ design rules under a new name.</description>
 <element name="U$11" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="62.992" y="4.318" smashed="yes"/>
 <element name="U$12" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="72.898" y="103.124" smashed="yes"/>
 <element name="U$13" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="8.128" y="97.79" smashed="yes"/>
-<element name="U$4" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="38.1" y="102.108" smashed="yes" rot="R90"/>
-<element name="U$6" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="45.466" y="102.108" smashed="yes" rot="R90"/>
+<element name="U$4" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="SCL" x="38.1" y="102.108" smashed="yes" rot="R90">
+<attribute name="SDA" value="SDA" x="42.418" y="100.076" size="1.778" layer="27" rot="R90" display="name"/>
+</element>
+<element name="U$6" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="45.466" y="102.108" smashed="yes" rot="R90">
+<attribute name="SCL" value="SCL" x="48.006" y="104.902" size="1.778" layer="27" rot="R270" display="name"/>
+</element>
+<element name="U$14" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="-6.858" y="-13.97" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -876,8 +881,10 @@ design rules under a new name.</description>
 <contactref element="VOLUME" pad="2"/>
 <wire x1="61.595" y1="105.029" x2="61.595" y2="94.441975" width="0.9144" layer="1"/>
 <wire x1="61.595" y1="94.441975" x2="52.324" y2="94.441975" width="0.9144" layer="1"/>
+<contactref element="U$14" pad="PAD$1"/>
 <wire x1="52.324" y1="61.722" x2="52.324" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="10.922" x2="35.814" y2="10.668" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.858" y1="-13.97" x2="35.56" y2="10.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R1" pad="P$1"/>

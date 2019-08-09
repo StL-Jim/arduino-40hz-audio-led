@@ -1290,7 +1290,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
 <part name="U$13" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="SCL"/>
 <part name="U$6" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
 </parts>
 <sheets>
@@ -1422,12 +1422,12 @@ D9 - Jumpered to D8 for frequency check
 <attribute name="VALUE" x="66.04" y="46.355" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R8" gate="G$1" x="132.08" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.5814" y="1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="1.27" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="130.5814" y="3.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="3.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$3" gate="G$1" x="175.26" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.91" y="50.8" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="194.31" y="44.45" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="181.61" y="54.61" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$2" gate="G$1" x="91.44" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="11.43" size="1.778" layer="95" rot="R270"/>

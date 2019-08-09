@@ -25,8 +25,8 @@
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -51,14 +51,14 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -82,7 +82,7 @@
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
@@ -259,10 +259,10 @@
 <smd name="8" x="-3.81" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
 </package>
 <package name="POWER-IN-PAD">
-<description>Single pad 200mm square, no hole.
+<description>Single pad 175mm square, no hole.
 
 I'm using it for where to start volate in.</description>
-<pad name="VCC" x="0" y="0" drill="0.000025" diameter="3.175" shape="long"/>
+<pad name="VCC" x="0" y="0" drill="0.000025" diameter="4.445" shape="long"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="1.905" x2="3.81" y2="1.905" width="0.127" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
@@ -412,9 +412,13 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
-<package name="PAD-1PIN-RECTANGLE-150MIL">
-<description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
-<pad name="PAD$1" x="-0.635" y="0" drill="0.000253125" diameter="3.81" shape="offset"/>
+<package name="PAD-RECTANGLE-200MIL">
+<description>Rounded rectangle solder pad - 200MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="5.08" shape="long"/>
+</package>
+<package name="PAD-RECTANGLE-175MIL">
+<description>Rounded rectangle solder pad - 150MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="4.445" shape="long"/>
 </package>
 <package name="DRILL-HOLE-4MM">
 <pad name="DRILL$1" x="0" y="0" drill="0.01" diameter="4"/>
@@ -732,8 +736,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.465" y="19.177" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="35.179" y="18.288" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$4" library="jim_muppet_parts" package="PAD-2PIN-RECTANGLE-50MIL" value="PAD-2PIN-RECTANGLE" x="36.83" y="104.902" smashed="yes" rot="R90"/>
-<element name="U$6" library="jim_muppet_parts" package="PAD-2PIN-RECTANGLE-50MIL" value="PAD-2PIN-RECTANGLE" x="43.434" y="104.648" smashed="yes" rot="R90"/>
 <element name="U$7" library="jim_muppet_parts" package="PAD-2PIN-RECTANGLE-50MIL" value="PAD-2PIN-RECTANGLE" x="11.176" y="64.008" smashed="yes"/>
 <element name="U$5" library="jim_muppet_parts" package="PROBE_POINT_1" value="+/- 6v virt gnd" x="9.906" y="10.668" smashed="yes">
 <attribute name="NAME" x="2.286" y="11.3284" size="1.778" layer="25" ratio="10" rot="R90"/>
@@ -752,9 +754,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.941" y="36.195" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="33.655" y="35.306" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$3" library="jim_muppet_parts" package="PAD-1PIN-RECTANGLE-150MIL" value="SINE out" x="69.596" y="6.604" smashed="yes">
-<attribute name="NAME" x="66.4464" y="8.382" size="1.778" layer="25" ratio="10"/>
-<attribute name="VALUE" x="65.6844" y="3.048" size="1.778" layer="25" ratio="10"/>
+<element name="U$3" library="jim_muppet_parts" package="PAD-RECTANGLE-200MIL" value="SINE out" x="72.39" y="7.366" smashed="yes" rot="R180">
+<attribute name="NAME" x="75.5396" y="5.588" size="1.778" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="76.3016" y="10.922" size="1.778" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="U$2" library="jim_muppet_parts" package="PROBE_POINT_1" value="-6v test point" x="34.29" y="4.572" smashed="yes">
 <attribute name="NAME" x="27.178" y="5.2324" size="1.778" layer="25" ratio="10" rot="R90"/>
@@ -764,11 +766,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.6624" y="34.544" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.6624" y="30.734" size="1.778" layer="25" ratio="10"/>
 </element>
-<element name="U$9" library="jim_muppet_parts" package="PAD-1PIN-RECTANGLE-150MIL" value="PAD-1PIN-RECTANGLE" x="70.612" y="53.848" smashed="yes" rot="R90"/>
+<element name="U$9" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="70.358" y="50.8" smashed="yes" rot="R90"/>
 <element name="U$10" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="5.08" y="5.334" smashed="yes"/>
 <element name="U$11" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="62.992" y="4.318" smashed="yes"/>
 <element name="U$12" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="72.898" y="103.124" smashed="yes"/>
 <element name="U$13" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="8.128" y="97.79" smashed="yes"/>
+<element name="U$4" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="38.1" y="102.108" smashed="yes" rot="R90"/>
+<element name="U$6" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL" value="PAD-1PIN-RECTANGLE175" x="45.466" y="102.108" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -842,10 +846,10 @@ design rules under a new name.</description>
 <contactref element="P+3" pad="VCC"/>
 <wire x1="70.612" y1="64.008" x2="70.612" y2="78.486" width="0.9144" layer="1"/>
 <wire x1="70.612" y1="78.486" x2="65.532" y2="78.486" width="0.9144" layer="1"/>
-<wire x1="28.448" y1="73.152" x2="65.532" y2="78.486" width="0" layer="19" extent="1-1"/>
-<wire x1="29.544" y1="73.279" x2="28.448" y2="73.152" width="0" layer="19" extent="1-1"/>
+<wire x1="29.544" y1="73.279" x2="65.532" y2="78.486" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="97.79" x2="13.716" y2="97.79" width="0" layer="19" extent="1-1"/>
 <wire x1="10.541" y1="64.008" x2="10.16" y2="64.495125" width="0" layer="19" extent="1-1"/>
+<wire x1="28.448" y1="73.152" x2="29.544" y2="73.279" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="DUTY-CYCLE" pad="2"/>
@@ -910,19 +914,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$14">
 <contactref element="U$1" pad="A4"/>
-<contactref element="U$4" pad="PAD$2"/>
-<wire x1="36.703" y1="103.886" x2="45.72" y2="94.869" width="0.9144" layer="1"/>
-<wire x1="45.72" y1="94.869" x2="45.72" y2="73.406" width="0.9144" layer="1"/>
+<wire x1="36.957" y1="101.6" x2="45.72" y2="92.837" width="0.9144" layer="1"/>
+<wire x1="45.72" y1="92.837" x2="45.72" y2="73.406" width="0.9144" layer="1"/>
 <wire x1="45.72" y1="73.406" x2="42.418" y2="73.406" width="0.9144" layer="1"/>
-<wire x1="36.703" y1="103.886" x2="36.83" y2="105.537" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<contactref element="U$6" pad="PAD$2"/>
 <contactref element="U$1" pad="A5"/>
-<wire x1="43.434" y1="103.251" x2="48.895" y2="97.79" width="0.9144" layer="1"/>
+<wire x1="45.466" y1="101.219" x2="48.895" y2="97.79" width="0.9144" layer="1"/>
 <wire x1="48.895" y1="70.866" x2="48.895" y2="97.79" width="0.9144" layer="1"/>
 <wire x1="42.418" y1="70.866" x2="48.895" y2="70.866" width="0.9144" layer="1"/>
-<wire x1="43.434" y1="103.251" x2="43.434" y2="105.283" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C6" pad="1"/>
@@ -965,6 +965,7 @@ design rules under a new name.</description>
 <wire x1="65.024" y1="73.406" x2="65.024" y2="54.61" width="0.9144" layer="1"/>
 <wire x1="70.612" y1="53.213" x2="69.215" y2="54.61" width="0.9144" layer="1"/>
 <wire x1="69.215" y1="54.61" x2="65.024" y2="54.61" width="0.9144" layer="1"/>
+<wire x1="70.612" y1="53.213" x2="70.358" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R6" pad="P$2"/>
