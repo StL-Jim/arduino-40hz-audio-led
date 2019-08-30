@@ -1229,17 +1229,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="1.016" drill="0">
+<clearance class="0" value="0.508"/>
 </class>
-<class number="1" name="Thin20" width="0" drill="0">
+<class number="1" name="1mm" width="1.016" drill="0">
+<clearance class="1" value="0.508"/>
 </class>
-<class number="2" name="Medium25" width="0" drill="0">
+<class number="2" name="1.5mm" width="1.524" drill="0">
+<clearance class="2" value="0.508"/>
 </class>
-<class number="3" name="Medium30" width="0" drill="0">
+<class number="3" name="2mm" width="2.032" drill="0">
+<clearance class="3" value="0.508"/>
 </class>
 <class number="4" name="Large50" width="0" drill="0">
+<clearance class="4" value="0.508"/>
 </class>
 <class number="5" name="Large100" width="0" drill="0">
+<clearance class="5" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -1517,7 +1523,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="129.54" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="2">
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
@@ -1548,7 +1554,7 @@ D9 - Jumpered to D8 for frequency check
 <junction x="91.44" y="-10.16"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
@@ -1565,13 +1571,13 @@ D9 - Jumpered to D8 for frequency check
 <pinref part="DUTY-CYCLE" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="55.88" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<junction x="66.04" y="83.82"/>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="68.58" y1="43.18" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <junction x="66.04" y="76.2"/>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="73.66" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<junction x="66.04" y="83.82"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -1580,7 +1586,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="127" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="2">
 <segment>
 <pinref part="DUTY-CYCLE" gate="G$1" pin="S"/>
 <pinref part="U$1" gate="G$1" pin="A0"/>
@@ -1592,7 +1598,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="73.66" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="2">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D9"/>
 <wire x1="106.68" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
@@ -1617,7 +1623,7 @@ D9 - Jumpered to D8 for frequency check
 <junction x="114.3" y="60.96"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="2">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -1628,7 +1634,7 @@ D9 - Jumpered to D8 for frequency check
 <junction x="157.48" y="5.08"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="2">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -1639,7 +1645,7 @@ D9 - Jumpered to D8 for frequency check
 <junction x="157.48" y="20.32"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="2">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -1650,7 +1656,7 @@ D9 - Jumpered to D8 for frequency check
 <junction x="157.48" y="35.56"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$13" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="6"/>
 <wire x1="116.84" y1="-2.54" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
@@ -1664,33 +1670,36 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="132.08" y1="0" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$14" class="2">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A4"/>
 <wire x1="73.66" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="N$15" class="2">
 <segment>
-<wire x1="50.8" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="35.56" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A5"/>
 <wire x1="60.96" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="2">
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="48.26" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="157.48" y="50.8"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="2">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="73.66" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
@@ -1700,14 +1709,14 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="60.96" y1="25.4" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="2">
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="5.5V"/>
 <wire x1="68.58" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$10" class="2">
 <segment>
 <pinref part="IC3" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
@@ -1719,7 +1728,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="132.08" y1="10.16" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="N$11" class="2">
 <segment>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 <wire x1="116.84" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
@@ -1728,7 +1737,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="109.22" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$12" class="2">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="7.62" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
@@ -1753,6 +1762,25 @@ D9 - Jumpered to D8 for frequency check
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,83.82,83.82,U$7,P$2,,,,"/>
+<approved hash="101,1,-7.62,66.04,U$10,P$1,,,,"/>
+<approved hash="101,1,-7.62,55.88,U$11,P$1,,,,"/>
+<approved hash="101,1,-7.62,45.72,U$12,P$1,,,,"/>
+<approved hash="101,1,-7.62,35.56,U$13,P$1,,,,"/>
+<approved hash="208,1,45.72,96.52,+5V,out,,,,"/>
+<approved hash="208,1,68.58,96.52,+5V,sup,,,,"/>
+<approved hash="208,1,129.54,48.26,+5V,sup,,,,"/>
+<approved hash="208,1,38.1,78.74,GND,sup,,,,"/>
+<approved hash="208,1,134.62,58.42,GND,out,,,,"/>
+<approved hash="208,1,137.16,58.42,GND,sup,,,,"/>
+<approved hash="208,1,109.22,38.1,GND,sup,,,,"/>
+<approved hash="208,1,71.12,35.56,GND,sup,,,,"/>
+<approved hash="208,1,142.24,30.48,GND,sup,,,,"/>
+<approved hash="208,1,132.08,27.94,GND,sup,,,,"/>
+<approved hash="113,1,58.7146,29.5386,JP2,,,,,"/>
+<approved hash="113,1,66.9814,40.9346,JP3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
