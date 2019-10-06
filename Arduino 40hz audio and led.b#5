@@ -191,17 +191,6 @@ Before that, and for reference I had:&lt;br&gt;
 <libraries>
 <library name="jim_muppet_parts">
 <packages>
-<package name="CAP-POLARIZED" urn="urn:adsk.eagle:footprint:37391/1" locally_modified="yes">
-<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
-<wire x1="-4.445" y1="2.032" x2="-5.715" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="5.207" y1="2.032" x2="3.937" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="4.572" y1="2.667" x2="4.572" y2="1.397" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.81" width="0.2032" layer="21"/>
-<pad name="2" x="-4.171" y="0" drill="0.000253125" diameter="3.175"/>
-<pad name="1" x="3.917" y="0" drill="0.000253125" diameter="3.175" shape="square"/>
-<text x="0" y="-2.159" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<text x="0" y="2.159" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-</package>
 <package name="CAP-MEDIUM-MUPPET">
 <description>Capacitor - Muppet style - Medium size SMT Pads
 120 square SMT pads</description>
@@ -214,44 +203,6 @@ Before that, and for reference I had:&lt;br&gt;
 <text x="-3.683" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.937" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="78XXL">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
-<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
-<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
-<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
-<pad name="IN" x="-2.54" y="-3.81" drill="0.000025" diameter="1.524" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-3.81" drill="0.000025" diameter="1.524" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-3.81" drill="0.000253125" diameter="1.524" shape="long" rot="R90"/>
-<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
-<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
-<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">I</text>
-<text x="2.032" y="0" size="1.27" layer="51" ratio="10">O</text>
-<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
-<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
-<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
-<hole x="0" y="11.176" drill="3.302"/>
 </package>
 <package name="DIL08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -281,19 +232,6 @@ I'm using it for where to start volate in.</description>
 <wire x1="-3.81" y1="1.905" x2="3.81" y2="1.905" width="0.127" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-1.905" x2="-3.81" y2="-1.905" width="0.127" layer="21"/>
-</package>
-<package name="AXIAL-0.4">
-<description>1/4W Resistor, 0.4" wide&lt;p&gt;
-
-Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf"&gt;http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf&lt;/a&gt;</description>
-<wire x1="-3.15" y1="-1.2" x2="-3.15" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="1.2" x2="3.15" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="1.2" x2="3.15" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-1.2" x2="-3.15" y2="-1.2" width="0.2032" layer="21"/>
-<pad name="P$1" x="-5.08" y="0" drill="0.000253125" diameter="1.8796"/>
-<pad name="P$2" x="5.08" y="0" drill="0.000253125" diameter="1.8796"/>
-<text x="-3.175" y="1.905" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
-<text x="-2.286" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
 </package>
 <package name="PAD-2PIN-RECTANGLE-50MIL">
 <description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
@@ -409,12 +347,6 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CPOL-RADIAL-2.5MM-6.5MM" urn="urn:adsk.eagle:package:37415/1" locally_modified="yes" type="box">
-<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
-<packageinstances>
-<packageinstance name="CAP-POLARIZED"/>
-</packageinstances>
-</package3d>
 <package3d name="3RP/1610N" urn="urn:adsk.eagle:package:22726/1" locally_modified="yes" type="box">
 <description>16mm Potentiometer one level
 Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
@@ -476,6 +408,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
 <rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
 <hole x="0" y="11.176" drill="3.302"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Passives">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CPOL-RADIAL-1000UF-25V">
+<wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5.461" width="0.2032" layer="21"/>
+<pad name="2" x="-2.54" y="0" drill="0.7" diameter="1.651"/>
+<pad name="1" x="2.54" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<text x="-1.905" y="-4.318" size="0.8128" layer="27">&gt;Value</text>
+<text x="-0.762" y="2.921" size="0.4064" layer="25">&gt;Name</text>
+</package>
+<package name="AXIAL-0.4">
+<description>1/4W Resistor, 0.4" wide&lt;p&gt;
+
+Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf"&gt;http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf&lt;/a&gt;</description>
+<wire x1="-3.15" y1="-1.2" x2="-3.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="1.2" x2="3.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="1.2" x2="3.15" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-1.2" x2="-3.15" y2="-1.2" width="0.2032" layer="21"/>
+<pad name="P$1" x="-5.08" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.8796"/>
+<text x="-3.175" y="1.905" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
+<text x="-2.286" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -688,15 +652,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="22.352" y="65.024" smashed="yes" rot="R180">
+<element name="C1" library="SparkFun-Passives" package="CPOL-RADIAL-1000UF-25V" value="10uF" x="22.352" y="65.024" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.352" y="63.119" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08439" x="-10.668" y="106.934" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="22.352" y="69.977" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C2" library="jim_muppet_parts" package="CAP-POLARIZED" package3d_urn="urn:adsk.eagle:package:37415/1" value="100uF" x="16.256" y="51.308" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.256" y="49.149" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08439" x="-29.464" y="93.218" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.51" y="56.261" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C2" library="SparkFun-Passives" package="CPOL-RADIAL-1000UF-25V" value="100uF" x="10.668" y="53.594" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.668" y="51.435" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="C3" library="jim_muppet_parts" package="CAP-MEDIUM-MUPPET" value="100nF" x="69.342" y="31.496" smashed="yes">
 <attribute name="NAME" x="67.691" y="33.655" size="1.27" layer="25" font="vector"/>
@@ -722,7 +682,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.32" y="99.822" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="17.399" y="106.426" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="IC2" library="jim_muppet_parts" package="78XXL" value="IRL-Z44N" x="69.342" y="78.486" smashed="yes" rot="R270">
+<element name="IC2" library="SparkFun-PowerIC" package="78XXL" value="IRL-Z44N" x="69.342" y="78.486" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.898" y="70.866" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.691" y="84.328" size="1.778" layer="27" ratio="10"/>
 </element>
@@ -731,27 +691,27 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.526" y="26.035" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="P+1" library="jim_muppet_parts" package="POWER-IN-PAD" value="+12V" x="8.128" y="42.418" smashed="yes" rot="R180"/>
-<element name="R1" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="40.894" smashed="yes" rot="R180">
+<element name="R1" library="SparkFun-Passives" package="AXIAL-0.4" value="39k" x="52.578" y="40.894" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.673" y="43.561" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="55.372" y="43.561" size="1.016" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R2" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="31.496" smashed="yes">
+<element name="R2" library="SparkFun-Passives" package="AXIAL-0.4" value="39k" x="52.578" y="31.496" smashed="yes">
 <attribute name="NAME" x="49.911" y="33.401" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="53.848" y="33.401" size="0.8128" layer="21" font="vector" ratio="15"/>
 </element>
-<element name="R3" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="52.578" y="21.59" smashed="yes" rot="R180">
+<element name="R3" library="SparkFun-Passives" package="AXIAL-0.4" value="39k" x="52.578" y="21.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.927" y="24.257" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="55.372" y="24.257" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R4" library="jim_muppet_parts" package="AXIAL-0.4" value="39k" x="67.564" y="21.59" smashed="yes" rot="R180">
+<element name="R4" library="SparkFun-Passives" package="AXIAL-0.4" value="39k" x="67.564" y="21.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="66.675" y="24.257" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="70.358" y="24.257" size="0.8128" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R5" library="jim_muppet_parts" package="AXIAL-0.4" value="1k" x="6.35" y="29.972" smashed="yes" rot="R90">
+<element name="R5" library="SparkFun-Passives" package="AXIAL-0.4" value="1k" x="6.35" y="29.972" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.271" y="30.607" size="1.016" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="9.271" y="28.194" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R6" library="jim_muppet_parts" package="AXIAL-0.4" value="1k" x="11.684" y="14.478" smashed="yes" rot="R270">
+<element name="R6" library="SparkFun-Passives" package="AXIAL-0.4" value="1k" x="11.684" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.589" y="16.129" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="13.843" y="13.716" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -765,7 +725,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.944" y="98.552" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="67.437" y="98.425" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R7" library="jim_muppet_parts" package="AXIAL-0.4" value="600R" x="35.56" y="16.002" smashed="yes" rot="R270">
+<element name="R7" library="SparkFun-Passives" package="AXIAL-0.4" value="600R" x="35.56" y="16.002" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.719" y="14.351" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="37.465" y="18.796" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -783,7 +743,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.528" y="71.501" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="33.528" y="76.073" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="jim_muppet_parts" package="AXIAL-0.4" value="4k" x="34.036" y="33.02" smashed="yes" rot="R270">
+<element name="R8" library="SparkFun-Passives" package="AXIAL-0.4" value="4k" x="34.036" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.195" y="31.623" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="35.941" y="34.544" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -843,16 +803,15 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="1"/>
 <contactref element="U$8" pad="P$1"/>
 <wire x1="29.972" y1="45.945778125" x2="29.943778125" y2="45.974" width="0.9144" layer="1"/>
-<wire x1="3.302" y1="100.33" x2="3.302" y2="60.345" width="1.524" layer="1"/>
+<wire x1="3.302" y1="100.33" x2="3.302" y2="57.781878125" width="1.524" layer="1"/>
 <wire x1="29.972" y1="55.372" x2="29.972" y2="45.945778125" width="1.524" layer="1"/>
 <wire x1="19.812" y1="31.75" x2="19.812" y2="38.1" width="1.524" layer="1"/>
 <wire x1="19.812" y1="38.1" x2="18.288" y2="39.624" width="1.524" layer="1"/>
 <wire x1="18.288" y1="39.624" x2="8.128" y2="42.418" width="1.524" layer="1"/>
 <wire x1="6.35" y1="35.052" x2="8.128" y2="42.418" width="1.524" layer="1"/>
 <wire x1="19.812" y1="38.1" x2="29.972" y2="45.945778125" width="1.524" layer="1"/>
-<wire x1="8.128" y1="42.418" x2="8.128" y2="47.097" width="1.524" layer="1"/>
-<wire x1="8.128" y1="47.097" x2="12.339" y2="51.308" width="1.524" layer="1"/>
-<wire x1="12.339" y1="51.308" x2="3.302" y2="60.345" width="1.524" layer="1"/>
+<wire x1="8.128" y1="42.418" x2="8.128" y2="53.594" width="1.524" layer="1"/>
+<wire x1="8.128" y1="53.594" x2="3.302" y2="57.781878125" width="1.524" layer="1"/>
 <wire x1="13.97" y1="102.87" x2="5.842" y2="102.87" width="1.524" layer="1"/>
 <wire x1="5.842" y1="102.87" x2="3.302" y2="100.33" width="1.524" layer="1"/>
 </signal>
@@ -865,11 +824,11 @@ design rules under a new name.</description>
 <wire x1="10.922" y1="73.406" x2="10.922" y2="73.279" width="0.9144" layer="1"/>
 <contactref element="IC2" pad="GND"/>
 <contactref element="P+3" pad="VCC"/>
-<wire x1="18.435" y1="65.024" x2="28.448" y2="73.152" width="1.524" layer="1"/>
+<wire x1="19.812" y1="65.024" x2="28.448" y2="73.152" width="1.524" layer="1"/>
 <wire x1="70.612" y1="64.008" x2="70.612" y2="76.708" width="1.524" layer="1"/>
 <wire x1="70.612" y1="76.708" x2="68.834" y2="78.486" width="1.524" layer="1"/>
 <wire x1="68.834" y1="78.486" x2="65.532" y2="78.486" width="1.524" layer="1"/>
-<wire x1="18.435" y1="65.024" x2="17.419" y2="64.008" width="1.524" layer="1"/>
+<wire x1="19.812" y1="65.024" x2="17.419" y2="64.008" width="1.524" layer="1"/>
 <wire x1="17.419" y1="64.008" x2="10.541" y2="64.008" width="1.524" layer="1"/>
 <contactref element="U$7" pad="PAD$1"/>
 <wire x1="10.541" y1="64.008" x2="10.541" y2="73.025" width="1.524" layer="1"/>

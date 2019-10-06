@@ -1781,7 +1781,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.875" y="11.684" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$1" library="jim_muppet_parts" package="ARDUINO-NANO" value="ARDUINO-NANO" x="52.578" y="64.516" smashed="yes"/>
-<element name="P+2" library="jim_muppet_parts" package="POWER-IN-PAD" value="+5V" x="10.922" y="73.406" smashed="yes"/>
+<element name="P+2" library="jim_muppet_parts" package="POWER-IN-PAD" value="+5V" x="12.446" y="73.914" smashed="yes" rot="R90"/>
 <element name="DUTY-CYCLE" library="jim_muppet_parts" package="POTENTIOMETER" package3d_urn="urn:adsk.eagle:package:22726/1" value="10K" x="22.352" y="87.884" smashed="yes">
 <attribute name="NAME" x="18.034" y="74.168" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="26.543" y="81.661" size="1.27" layer="27" rot="R270"/>
@@ -1888,7 +1888,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="DUTY-CYCLE" pad="1"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="10.922" y1="73.406" x2="10.922" y2="73.279" width="0.9144" layer="1"/>
 <contactref element="IC2" pad="GND"/>
 <contactref element="P+3" pad="VCC"/>
 <wire x1="19.812" y1="65.024" x2="28.448" y2="73.152" width="1.524" layer="1"/>
@@ -1898,12 +1897,12 @@ design rules under a new name.</description>
 <wire x1="19.812" y1="65.024" x2="17.419" y2="64.008" width="1.524" layer="1"/>
 <wire x1="17.419" y1="64.008" x2="10.541" y2="64.008" width="1.524" layer="1"/>
 <contactref element="U$7" pad="PAD$1"/>
-<wire x1="10.541" y1="64.008" x2="10.541" y2="73.025" width="1.524" layer="1"/>
-<wire x1="10.541" y1="73.025" x2="10.922" y2="73.406" width="1.524" layer="1"/>
+<wire x1="10.541" y1="64.008" x2="10.541" y2="71.53275" width="1.524" layer="1"/>
+<wire x1="12.446" y1="73.914" x2="10.541" y2="71.53275" width="1.524" layer="1"/>
 <wire x1="18.876" y1="86.995" x2="17.606" y2="94.154" width="1.524" layer="1"/>
 <wire x1="17.606" y1="94.154" x2="13.97" y2="97.79" width="1.524" layer="1"/>
-<wire x1="10.922" y1="73.406" x2="17.606" y2="80.09" width="1.524" layer="1"/>
-<wire x1="17.606" y1="80.09" x2="18.876" y2="86.995" width="1.524" layer="1"/>
+<wire x1="12.446" y1="73.914" x2="17.621465625" y2="80.17409375" width="1.524" layer="1"/>
+<wire x1="17.621465625" y1="80.17409375" x2="18.876" y2="86.995" width="1.524" layer="1"/>
 <wire x1="28.448" y1="73.152" x2="65.532" y2="78.486" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="2">
@@ -2126,7 +2125,6 @@ design rules under a new name.</description>
 <approved hash="1,20,ffffffffffffffff"/>
 <approved hash="3,1,502283f8c7dc18e5"/>
 <approved hash="21,19,7b5f794279427b5f"/>
-<approved hash="3,1,65fe543c52a46366"/>
 <approved hash="21,19,00c002c202c200c0"/>
 <approved hash="21,19,5f3e5d3c5d3c5f3e"/>
 <approved hash="21,19,357a37783778357a"/>
@@ -2140,7 +2138,6 @@ design rules under a new name.</description>
 <approved hash="5,16,c7ee223305d8c30a"/>
 <approved hash="5,16,d8bc4df335d88398"/>
 <approved hash="19,1,9b88966b786d758e"/>
-<approved hash="19,1,d4c7d7478907ede4"/>
 <approved hash="19,1,9b88966b786d758e"/>
 <approved hash="19,16,9b88966b786d758e"/>
 <approved hash="3,1,33554b4549423152"/>

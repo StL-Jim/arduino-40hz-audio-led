@@ -500,15 +500,15 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdWireWire" value="0.6mm"/>
+<param name="mdWirePad" value="0.6mm"/>
+<param name="mdWireVia" value="0.6mm"/>
+<param name="mdPadPad" value="0.6mm"/>
+<param name="mdPadVia" value="0.6mm"/>
+<param name="mdViaVia" value="0.6mm"/>
+<param name="mdSmdPad" value="0.6mm"/>
+<param name="mdSmdVia" value="0.6mm"/>
+<param name="mdSmdSmd" value="0.6mm"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="20mil"/>
@@ -1090,20 +1090,21 @@ design rules under a new name.</description>
 <approved hash="1,20,ffffffffffffffff"/>
 <approved hash="1,20,fefefefefefefefe"/>
 <approved hash="1,20,ffffffffffffffff"/>
-<approved hash="21,19,013d013d033f003e"/>
 <approved hash="3,1,fcef3e369d5dfea0"/>
 <approved hash="3,1,502283f8c7dc18e5"/>
 <approved hash="3,1,5f2fe44dcadad9de"/>
 <approved hash="3,1,07b466fefdb59f68"/>
 <approved hash="21,19,7b5f794279427b5f"/>
 <approved hash="23,1,fcef3e369d5dfea0"/>
-<approved hash="19,1,b4644c082210ddcc"/>
-<approved hash="19,1,2b7e20afb6a9bd78"/>
-<approved hash="19,1,d2923dd3440eca0a"/>
-<approved hash="19,16,2b7e20afb6a9bd78"/>
-<approved hash="21,19,1b3f193d193d1b3f"/>
 <approved hash="3,1,65fe543c52a46366"/>
 <approved hash="23,1,5f2fe44dcadad9de"/>
+<approved hash="21,19,00c002c202c200c0"/>
+<approved hash="21,19,be7dbc7fbc7fbe7d"/>
+<approved hash="21,19,5f3e5d3c5d3c5f3e"/>
+<approved hash="19,1,498d4dc72cb831b2"/>
+<approved hash="19,1,6fef662d549b5e81"/>
+<approved hash="19,1,2a4825644f66404a"/>
+<approved hash="19,16,2a4825644f66404a"/>
 </errors>
 </board>
 </drawing>
