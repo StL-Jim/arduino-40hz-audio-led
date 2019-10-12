@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -161,10 +161,10 @@
 <library name="jim_muppet_parts">
 <packages>
 <package name="POWER-IN-PAD">
-<description>Single pad 200mm square, no hole.
+<description>Single pad 175mm square, no hole.
 
 I'm using it for where to start volate in.</description>
-<pad name="VCC" x="0" y="0" drill="0.000025" diameter="3.175" shape="long"/>
+<pad name="VCC" x="0" y="0" drill="0.000025" diameter="4.445" shape="long"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="1.905" x2="3.81" y2="1.905" width="0.127" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
@@ -214,17 +214,12 @@ I'm using it for where to start volate in.</description>
 <smd name="13" x="-1.27" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
 <smd name="14" x="-3.81" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
 </package>
-<package name="PAD-2PIN-RECTANGLE-50MIL">
-<description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
-<pad name="PAD$1" x="-0.635" y="0" drill="0.000253125" diameter="1.27" shape="offset"/>
-<pad name="PAD$2" x="0.635" y="0" drill="0.000253125" diameter="1.27" shape="offset" rot="R180"/>
-</package>
 <package name="POTENTIOMETER" urn="urn:adsk.eagle:footprint:22673/1" locally_modified="yes">
 <description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
 Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
-<wire x1="-5.81" y1="-3.7" x2="5.81" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="-3.7" x2="7.08" y2="-3.7" width="0.2032" layer="21"/>
 <wire x1="-5.81" y1="-2.97" x2="5.81" y2="-2.97" width="0.2032" layer="21"/>
-<wire x1="-5.81" y1="4.13" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="4.13" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
 <wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
@@ -233,8 +228,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
-<wire x1="-5.81" y1="-3.7" x2="-5.81" y2="4.13" width="0.2032" layer="21"/>
-<wire x1="5.81" y1="-3.7" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="-3.7" x2="-7.08" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="7.08" y1="-3.7" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
@@ -247,9 +242,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
 <wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
-<pad name="1" x="-3.476" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
-<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
-<pad name="3" x="3.73" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
+<pad name="1" x="-4.746" y="-0.889" drill="0.000253125" diameter="3.683" shape="offset" rot="R90"/>
+<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="3.683" shape="offset" rot="R90"/>
+<pad name="3" x="5" y="-0.889" drill="0.000253125" diameter="3.683" shape="offset" rot="R90"/>
 <text x="-7.874" y="4.826" size="1.27" layer="25">&gt;NAME</text>
 <text x="1.397" y="4.953" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -263,7 +258,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
 <circle x="-3.81" y="2.54" radius="2.05240625" width="1.27" layer="21"/>
 <circle x="-3.81" y="2.54" radius="2.921" width="0.127" layer="21"/>
-<pad name="P$1" x="-3.81" y="2.54" drill="0.000253125" diameter="1.9304"/>
+<pad name="P$1" x="-3.81" y="2.54" drill="0.000253125" diameter="2.54"/>
 </package>
 <package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" locally_modified="yes">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
@@ -304,36 +299,241 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="4.445" shape="long"/>
 </package>
 <package name="ARDUINO-NANO">
-<pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
-<pad name="RX1" x="5.08" y="-6.35" drill="0.8" shape="long"/>
-<pad name="RST1" x="5.08" y="-3.81" drill="0.8" shape="long"/>
-<pad name="GND1" x="5.08" y="-1.27" drill="0.8" shape="long"/>
-<pad name="D2" x="5.08" y="1.27" drill="0.8" shape="long"/>
-<pad name="D3" x="5.08" y="3.81" drill="0.8" shape="long"/>
-<pad name="D4" x="5.08" y="6.35" drill="0.8" shape="long"/>
-<pad name="D5" x="5.08" y="8.89" drill="0.8" shape="long"/>
-<pad name="D6" x="5.08" y="11.43" drill="0.8" shape="long"/>
-<pad name="D7" x="5.08" y="13.97" drill="0.8" shape="long"/>
-<pad name="D8" x="5.08" y="16.51" drill="0.8" shape="long"/>
-<pad name="D9" x="5.08" y="19.05" drill="0.8" shape="long"/>
-<pad name="RAW" x="-10.16" y="-8.89" drill="0.8" shape="long"/>
-<pad name="GND" x="-10.16" y="-6.35" drill="0.8" shape="long"/>
-<pad name="RST" x="-10.16" y="-3.81" drill="0.8" shape="long"/>
-<pad name="A3" x="-10.16" y="11.43" drill="0.8" shape="long"/>
-<pad name="A2" x="-10.16" y="13.97" drill="0.8" shape="long"/>
-<pad name="A1" x="-10.16" y="16.51" drill="0.8" shape="long"/>
-<pad name="A0" x="-10.16" y="19.05" drill="0.8" shape="long"/>
-<pad name="D13" x="-10.16" y="26.67" drill="0.8" shape="long"/>
-<pad name="D12" x="5.08" y="26.67" drill="0.8" shape="long"/>
-<pad name="D11" x="5.08" y="24.13" drill="0.8" shape="long"/>
-<pad name="D10" x="5.08" y="21.59" drill="0.8" shape="long"/>
-<pad name="3.3V" x="-10.16" y="24.13" drill="0.8" shape="long" rot="R180"/>
-<pad name="AREF" x="-10.16" y="21.59" drill="0.8" shape="long" rot="R180"/>
-<pad name="5V" x="-10.16" y="-1.27" drill="0.8" shape="long"/>
-<pad name="A4" x="-10.16" y="8.89" drill="0.8" shape="long" rot="R180"/>
-<pad name="A5" x="-10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="A6" x="-10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="A7" x="-10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="TX0" x="5.08" y="-8.89" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="RX1" x="5.08" y="-6.35" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="RST1" x="5.08" y="-3.81" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="GND1" x="5.08" y="-1.27" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D2" x="5.08" y="1.27" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="D3" x="5.08" y="3.81" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D4" x="5.08" y="6.35" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D5" x="5.08" y="8.89" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="D6" x="5.08" y="11.43" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="D7" x="5.08" y="13.97" drill="0.000003125" diameter="1.6764" shape="long"/>
+<pad name="D8" x="5.08" y="16.51" drill="0.000003125" diameter="1.6764" shape="long"/>
+<pad name="D9" x="5.08" y="19.05" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="RAW" x="-10.16" y="-8.89" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="GND" x="-10.16" y="-6.35" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="RST" x="-10.16" y="-3.81" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="A3" x="-10.16" y="11.43" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="A2" x="-10.16" y="13.97" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="A1" x="-10.16" y="16.51" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="A0" x="-10.16" y="19.05" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D13" x="-10.16" y="26.67" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D12" x="5.08" y="26.67" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D11" x="5.08" y="24.13" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="D10" x="5.08" y="21.59" drill="0.000253125" diameter="1.6764" shape="long"/>
+<pad name="3.3V" x="-10.16" y="24.13" drill="0.000025" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="AREF" x="-10.16" y="21.59" drill="0.000253125" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="5V" x="-10.16" y="-1.27" drill="0.000025" diameter="1.6764" shape="long"/>
+<pad name="A4" x="-10.16" y="8.89" drill="0.000253125" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A5" x="-10.16" y="6.35" drill="0.000253125" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A6" x="-10.16" y="3.81" drill="0.000253125" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A7" x="-10.16" y="1.27" drill="0.000253125" diameter="1.6764" shape="long" rot="R180"/>
+<text x="-15.875" y="26.035" size="1.27" layer="21">D13</text>
+<text x="7.62" y="26.035" size="1.27" layer="21">D12</text>
+<text x="7.62" y="23.495" size="1.27" layer="21">D11</text>
+<text x="7.62" y="20.955" size="1.27" layer="21">D10</text>
+<text x="7.62" y="18.415" size="1.27" layer="21">D09</text>
+<text x="7.62" y="15.875" size="1.27" layer="21">D08</text>
+<text x="7.62" y="13.335" size="1.27" layer="21">D07</text>
+<text x="7.62" y="10.795" size="1.27" layer="21">D06</text>
+<text x="7.62" y="8.255" size="1.27" layer="21">D05</text>
+<text x="7.62" y="5.715" size="1.27" layer="21">D04</text>
+<text x="7.62" y="3.175" size="1.27" layer="21">D03</text>
+<text x="7.62" y="0.635" size="1.27" layer="21">D02</text>
+<text x="-15.875" y="23.495" size="1.27" layer="21">3.3v</text>
+<text x="-15.875" y="-1.905" size="1.27" layer="21">5.5v</text>
+<text x="-16.51" y="-6.985" size="1.27" layer="21">GND</text>
+<text x="7.62" y="-1.905" size="1.27" layer="21">GND2</text>
+<text x="-15.24" y="-9.525" size="1.27" layer="21">VIN</text>
+<text x="-15.875" y="-4.445" size="1.27" layer="21">RST</text>
+<text x="-14.605" y="0.635" size="1.27" layer="21">A7</text>
+<text x="-14.605" y="3.175" size="1.27" layer="21">A6</text>
+<text x="-14.605" y="5.715" size="1.27" layer="21">A5</text>
+<text x="-14.605" y="8.255" size="1.27" layer="21">A4</text>
+<text x="-14.605" y="10.795" size="1.27" layer="21">A3</text>
+<text x="-14.605" y="13.335" size="1.27" layer="21">A2</text>
+<text x="-14.605" y="15.875" size="1.27" layer="21">A1</text>
+<text x="-14.605" y="18.415" size="1.27" layer="21">A0</text>
+<text x="-17.145" y="20.955" size="1.27" layer="21">AREF</text>
+<text x="7.62" y="-4.445" size="1.27" layer="21">RST1</text>
+<text x="7.62" y="-6.985" size="1.27" layer="21">RX1</text>
+<text x="7.62" y="-9.525" size="1.27" layer="21">TX0</text>
+</package>
+<package name="POWER-IN-PAD-THRUHOLE">
+<description>Single pad 175mm square, no hole.
+
+I'm using it for where to start volate in.</description>
+<pad name="VCC" x="-2.54" y="0" drill="1" diameter="4.445" shape="offset"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="3.81" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="-3.81" y2="-1.905" width="0.127" layer="21"/>
+</package>
+<package name="ARDUINO-NANO-THRUHOLE">
+<pad name="TX0" x="5.08" y="-8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="RX1" x="5.08" y="-6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="RST1" x="5.08" y="-3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="GND1" x="5.08" y="-1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D2" x="5.08" y="1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D3" x="5.08" y="3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D4" x="5.08" y="6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D5" x="5.08" y="8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D6" x="5.08" y="11.43" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D7" x="5.08" y="13.97" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D8" x="5.08" y="16.51" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D9" x="5.08" y="19.05" drill="1" diameter="1.6764" shape="long"/>
+<pad name="RAW" x="-10.16" y="-8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="GND" x="-10.16" y="-6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="RST" x="-10.16" y="-3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="A3" x="-10.16" y="11.43" drill="1" diameter="1.6764" shape="long"/>
+<pad name="A2" x="-10.16" y="13.97" drill="1" diameter="1.6764" shape="long"/>
+<pad name="A1" x="-10.16" y="16.51" drill="1" diameter="1.6764" shape="long"/>
+<pad name="A0" x="-10.16" y="19.05" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D13" x="-10.16" y="26.67" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D12" x="5.08" y="26.67" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D11" x="5.08" y="24.13" drill="1" diameter="1.6764" shape="long"/>
+<pad name="D10" x="5.08" y="21.59" drill="1" diameter="1.6764" shape="long"/>
+<pad name="3.3V" x="-10.16" y="24.13" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="AREF" x="-10.16" y="21.59" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="5V" x="-10.16" y="-1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="A4" x="-10.16" y="8.89" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A5" x="-10.16" y="6.35" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A6" x="-10.16" y="3.81" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<pad name="A7" x="-10.16" y="1.27" drill="1" diameter="1.6764" shape="long" rot="R180"/>
+<text x="-15.875" y="26.035" size="1.27" layer="21">D13</text>
+<text x="7.62" y="26.035" size="1.27" layer="21">D12</text>
+<text x="7.62" y="23.495" size="1.27" layer="21">D11</text>
+<text x="7.62" y="20.955" size="1.27" layer="21">D10</text>
+<text x="7.62" y="18.415" size="1.27" layer="21">D09</text>
+<text x="7.62" y="15.875" size="1.27" layer="21">D08</text>
+<text x="7.62" y="13.335" size="1.27" layer="21">D07</text>
+<text x="7.62" y="10.795" size="1.27" layer="21">D06</text>
+<text x="7.62" y="8.255" size="1.27" layer="21">D05</text>
+<text x="7.62" y="5.715" size="1.27" layer="21">D04</text>
+<text x="7.62" y="3.175" size="1.27" layer="21">D03</text>
+<text x="7.62" y="0.635" size="1.27" layer="21">D02</text>
+<text x="-15.875" y="23.495" size="1.27" layer="21">3.3v</text>
+<text x="-15.875" y="-1.905" size="1.27" layer="21">5.5v</text>
+<text x="-16.51" y="-6.985" size="1.27" layer="21">GND</text>
+<text x="7.62" y="-1.905" size="1.27" layer="21">GND2</text>
+<text x="-15.24" y="-9.525" size="1.27" layer="21">VIN</text>
+<text x="-15.875" y="-4.445" size="1.27" layer="21">RST</text>
+<text x="-14.605" y="0.635" size="1.27" layer="21">A7</text>
+<text x="-14.605" y="3.175" size="1.27" layer="21">A6</text>
+<text x="-14.605" y="5.715" size="1.27" layer="21">A5</text>
+<text x="-14.605" y="8.255" size="1.27" layer="21">A4</text>
+<text x="-14.605" y="10.795" size="1.27" layer="21">A3</text>
+<text x="-14.605" y="13.335" size="1.27" layer="21">A2</text>
+<text x="-14.605" y="15.875" size="1.27" layer="21">A1</text>
+<text x="-14.605" y="18.415" size="1.27" layer="21">A0</text>
+<text x="-17.145" y="20.955" size="1.27" layer="21">AREF</text>
+<text x="7.62" y="-4.445" size="1.27" layer="21">RST1</text>
+<text x="7.62" y="-6.985" size="1.27" layer="21">RX1</text>
+<text x="7.62" y="-9.525" size="1.27" layer="21">TX0</text>
+</package>
+<package name="PAD-1PIN-RECTANGLE-150MIL-THRUHOLE">
+<description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
+<pad name="PAD$1" x="0" y="0" drill="1" diameter="3.81" shape="offset"/>
+</package>
+<package name="PAD-RECTANGLE-175MIL-THRUHOLE">
+<description>Rounded rectangle solder pad - 150MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="1" diameter="4.445" shape="offset"/>
+</package>
+<package name="PAD-RECTANGLE-200MIL-THRUHOLE">
+<description>Rounded rectangle solder pad - 200MIL</description>
+<pad name="PAD$1" x="0" y="0" drill="1" diameter="5.08" shape="offset"/>
+</package>
+<package name="DIL08-THRUHOLE">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<pad name="P$1" x="-3.81" y="-2.54" drill="1" shape="square"/>
+<pad name="P$2" x="-1.27" y="-2.54" drill="1" shape="square"/>
+<pad name="P$3" x="1.27" y="-2.54" drill="1" shape="square"/>
+<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
+<pad name="P$5" x="3.81" y="2.54" drill="1" shape="square"/>
+<pad name="P$6" x="1.27" y="2.54" drill="1" shape="square"/>
+<pad name="P$7" x="-1.27" y="2.54" drill="1" shape="square"/>
+<pad name="P$8" x="-3.81" y="2.54" drill="1" shape="square"/>
+</package>
+<package name="POTENTIOMETER-THRUHOLE">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<wire x1="-7.08" y1="-3.7" x2="7.08" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-5.81" y1="-2.97" x2="5.81" y2="-2.97" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="4.13" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-9.9" x2="-2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-10.2" x2="3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="-7.08" y1="-3.7" x2="-7.08" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="7.08" y1="-3.7" x2="7.08" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.025" x2="3.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.525" x2="3.3" y2="-7" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.025" x2="3.3" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.525" x2="3.3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.025" x2="3.3" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.525" x2="3.3" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
+<pad name="1" x="-4.746" y="-0.889" drill="1" diameter="3.683" shape="offset" rot="R90"/>
+<pad name="2" x="0.127" y="-0.889" drill="1" diameter="3.683" shape="offset" rot="R90"/>
+<pad name="3" x="5" y="-0.889" drill="1" diameter="3.683" shape="offset" rot="R90"/>
+<text x="-7.874" y="4.826" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.397" y="4.953" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PROBE_POINT_1-THRUHOLE">
+<text x="-5.4356" y="-2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
+<circle x="-3.81" y="2.54" radius="2.05240625" width="1.27" layer="21"/>
+<circle x="-3.81" y="2.54" radius="2.921" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.81" y="2.54" drill="1" diameter="2.54"/>
+</package>
+<package name="PROBE_POINT-THRUHOLE">
+<pad name="P$1" x="-2.54" y="1.27" drill="1" diameter="2.54"/>
+<text x="-5.4356" y="-2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
+</package>
+<package name="JP1-THRUHOLE">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-5.08" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-5.08" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-5.08" x2="1.016" y2="-5.08" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="1" diameter="3.175" shape="long"/>
+<pad name="2" x="0" y="2.54" drill="1" diameter="3.175" shape="long"/>
+<text x="-2.921" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.191" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+<package name="DRILL-HOLE-4MM-THRUHOLE">
+<pad name="DRILL$1" x="0" y="0" drill="1" diameter="4"/>
 </package>
 </packages>
 <packages3d>
@@ -383,20 +583,6 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="PAD-2PIN-SOLDER">
-<description>&lt;h1&gt;Rounded rectangle solder pad&lt;/h1&gt;&lt;hr&gt;
-&lt;li&gt;50MIL&lt;/li&gt;
-&lt;li&gt;100MIL&lt;/li&gt;
-&lt;li&gt;150MIL&lt;/li&gt;
-&lt;li&gt;200MIL&lt;/li&gt;</description>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="-5.08" size="1.27" layer="94">Solder Pad</text>
-<pin name="P$1" x="-5.08" y="0" length="short" rot="R180"/>
-<pin name="P$2" x="5.08" y="0" length="short"/>
 </symbol>
 <symbol name="POT_EU-">
 <wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
@@ -475,7 +661,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pin name="D7" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="D8" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="D9" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="RAW" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="VIN" x="-22.86" y="-20.32" visible="pin" length="middle"/>
 <pin name="GND" x="-22.86" y="-17.78" visible="pin" length="middle"/>
 <pin name="RST" x="-22.86" y="-15.24" visible="pin" length="middle"/>
 <pin name="5.5V" x="-22.86" y="-12.7" visible="pin" length="middle"/>
@@ -499,13 +685,21 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+12V" prefix="P+">
+<deviceset name="+12V" prefix="P+" uservalue="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POWER-IN-PAD">
+<connects>
+<connect gate="1" pin="+12V" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE" package="POWER-IN-PAD-THRUHOLE">
 <connects>
 <connect gate="1" pin="+12V" pad="VCC"/>
 </connects>
@@ -541,9 +735,24 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE8" package="DIL08-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="+5V" prefix="P+">
+<deviceset name="+5V" prefix="P+" uservalue="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
@@ -557,22 +766,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="PAD-2PIN-RECTANGLE">
-<description>&lt;h2&gt;3 Pin - Rounded Rectangle Solder Pad&lt;/h2&gt;
-&lt;li&gt;&lt;b&gt;50MIL&lt;/li&gt;
-&lt;b&gt;100MIL&lt;/li&gt;
-&lt;b&gt;150MIL&lt;/li&gt;
-&lt;b&gt;200MIL&lt;/li&gt;&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PAD-2PIN-SOLDER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD-2PIN-RECTANGLE-50MIL">
+<device name="THRUHOLE" package="POWER-IN-PAD-THRUHOLE">
 <connects>
-<connect gate="G$1" pin="P$1" pad="PAD$1"/>
-<connect gate="G$1" pin="P$2" pad="PAD$2"/>
+<connect gate="1" pin="+5V" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -600,9 +796,19 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE" package="POTENTIOMETER-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="PROBE-POINT">
+<deviceset name="PROBE-POINT" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PROBE-POINT1" x="0" y="-2.54"/>
 </gates>
@@ -623,15 +829,39 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE1" package="PROBE_POINT_1-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE" package="PROBE_POINT-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="+6V" prefix="P+">
+<deviceset name="+6V" prefix="P+" uservalue="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+6V" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="POWER-IN-PAD">
+<connects>
+<connect gate="G$1" pin="+5V" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE" package="POWER-IN-PAD-THRUHOLE">
 <connects>
 <connect gate="G$1" pin="+5V" pad="VCC"/>
 </connects>
@@ -659,16 +889,25 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE" package="JP1-THRUHOLE">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="PAD-1PIN-RECTANGLE">
+<deviceset name="PAD-1PIN-RECTANGLE" uservalue="yes">
 <description>&lt;h2&gt;1 Pin - Rounded Rectangle Solder Pad&lt;/h2&gt;
 &lt;li&gt;&lt;b&gt;125MIL&lt;/li&gt;&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PAD-1PIN-SOLDER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PAD-1PIN-RECTANGLE-150MIL">
+<device name="150" package="PAD-1PIN-RECTANGLE-150MIL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="PAD$1"/>
 </connects>
@@ -692,6 +931,30 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE150" package="PAD-1PIN-RECTANGLE-150MIL-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE175" package="PAD-RECTANGLE-175MIL-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE200" package="PAD-RECTANGLE-200MIL-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DRILL-HOLE-4MM">
@@ -708,9 +971,17 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="THRUHOLE" package="DRILL-HOLE-4MM-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="DRILL$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO-NANO">
+<deviceset name="ARDUINO-NANO" uservalue="yes">
 <description>Arduino Nano</description>
 <gates>
 <gate name="G$1" symbol="ARDUINO-NANO" x="7.62" y="2.54"/>
@@ -743,11 +1014,48 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <connect gate="G$1" pin="D9" pad="D9"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND2" pad="GND1"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RST1" pad="RST1"/>
 <connect gate="G$1" pin="RX1" pad="RX1"/>
 <connect gate="G$1" pin="TX0" pad="TX0"/>
+<connect gate="G$1" pin="VIN" pad="RAW"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE" package="ARDUINO-NANO-THRUHOLE">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="5.5V" pad="5V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND1"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RST1" pad="RST1"/>
+<connect gate="G$1" pin="RX1" pad="RX1"/>
+<connect gate="G$1" pin="TX0" pad="TX0"/>
+<connect gate="G$1" pin="VIN" pad="RAW"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6189,7 +6497,7 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="jim_muppet_parts" deviceset="ARDUINO-NANO" device=""/>
+<part name="U$1" library="jim_muppet_parts" deviceset="ARDUINO-NANO" device="THRUHOLE"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="39k"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="39k"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="39k"/>
@@ -6198,8 +6506,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SIDE" value="LM7805"/>
 <part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SIDE" value="IRL-Z44N"/>
-<part name="P+1" library="jim_muppet_parts" deviceset="+12V" device=""/>
-<part name="IC3" library="jim_muppet_parts" deviceset="DUAL-INLINE-8" device="DIL08-2" value="LM741"/>
+<part name="P+1" library="jim_muppet_parts" deviceset="+12V" device="THRUHOLE"/>
+<part name="IC3" library="jim_muppet_parts" deviceset="DUAL-INLINE-8" device="THRUHOLE8" value="LM741"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH4" value="10uF"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH4" value="100uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="100nF"/>
@@ -6210,29 +6518,28 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="P+2" library="jim_muppet_parts" deviceset="+5V" device=""/>
+<part name="P+2" library="jim_muppet_parts" deviceset="+5V" device="THRUHOLE"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="DUTY-CYCLE" library="jim_muppet_parts" deviceset="POTENTIOMETER" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="10K"/>
-<part name="VOLUME" library="jim_muppet_parts" deviceset="POTENTIOMETER" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="100k"/>
+<part name="DUTY-CYCLE" library="jim_muppet_parts" deviceset="POTENTIOMETER" device="THRUHOLE" value="10K"/>
+<part name="VOLUME" library="jim_muppet_parts" deviceset="POTENTIOMETER" device="THRUHOLE" value="100k"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="600R"/>
-<part name="U$7" library="jim_muppet_parts" deviceset="PAD-2PIN-RECTANGLE" device=""/>
-<part name="U$5" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="+/- 6v virt gnd"/>
-<part name="P+3" library="jim_muppet_parts" deviceset="+6V" device=""/>
-<part name="JP2" library="jim_muppet_parts" deviceset="JUMPER-JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="JP3" library="jim_muppet_parts" deviceset="JUMPER-JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="U$5" library="jim_muppet_parts" deviceset="PROBE-POINT" device="THRUHOLE1" value="+/- 6v virt gnd"/>
+<part name="P+3" library="jim_muppet_parts" deviceset="+6V" device="THRUHOLE"/>
+<part name="JP2" library="jim_muppet_parts" deviceset="JUMPER-JP1E" device="THRUHOLE"/>
+<part name="JP3" library="jim_muppet_parts" deviceset="JUMPER-JP1E" device="THRUHOLE"/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="4k"/>
-<part name="U$3" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="200" value="SINE out"/>
-<part name="U$2" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="-6v test point"/>
-<part name="U$8" library="jim_muppet_parts" deviceset="PROBE-POINT" device="PROBE_POINT_1" value="+6v test point"/>
-<part name="U$9" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
-<part name="U$10" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$13" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device=""/>
-<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="SCL"/>
-<part name="U$6" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
-<part name="U$14" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$3" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="THRUHOLE175" value="SINE out"/>
+<part name="U$2" library="jim_muppet_parts" deviceset="PROBE-POINT" device="THRUHOLE1" value="-6v test point"/>
+<part name="U$8" library="jim_muppet_parts" deviceset="PROBE-POINT" device="THRUHOLE1" value="+6v test point"/>
+<part name="U$9" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="THRUHOLE175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$10" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device="THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE"/>
+<part name="U$11" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device="THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE"/>
+<part name="U$12" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device="THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE"/>
+<part name="U$13" library="jim_muppet_parts" deviceset="DRILL-HOLE-4MM" device="THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE"/>
+<part name="U$4" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="THRUHOLE175" value="SCL"/>
+<part name="U$6" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="THRUHOLE175" value="PAD-1PIN-RECTANGLE175"/>
+<part name="U$14" library="jim_muppet_parts" deviceset="PAD-1PIN-RECTANGLE" device="THRUHOLE175" value="PAD-1PIN-RECTANGLE175"/>
 </parts>
 <sheets>
 <sheet>
@@ -6342,11 +6649,10 @@ D9 - Jumpered to D8 for frequency check
 <instance part="SUPPLY6" gate="GND" x="142.24" y="33.02" smashed="yes" rot="R180">
 <attribute name="VALUE" x="144.145" y="36.195" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="119.38" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.8814" y="19.05" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="122.682" y="19.05" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="114.3" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="118.11" y="26.4414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="118.11" y="31.242" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$7" gate="G$1" x="78.74" y="83.82" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="20.32" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.97" y="0" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="-6.35" size="1.778" layer="96" rot="R180"/>
@@ -6488,8 +6794,7 @@ D9 - Jumpered to D8 for frequency check
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="76.2" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="53.34" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
@@ -6505,9 +6810,6 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="68.58" y1="43.18" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <junction x="66.04" y="76.2"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<junction x="66.04" y="83.82"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -6539,8 +6841,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="119.38" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 <junction x="114.3" y="58.42"/>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="45.72" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="27.94" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="45.72" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="35.56" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
@@ -6631,7 +6932,7 @@ D9 - Jumpered to D8 for frequency check
 </net>
 <net name="N$8" class="2">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RAW"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="73.66" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
@@ -6652,7 +6953,7 @@ D9 - Jumpered to D8 for frequency check
 <wire x1="132.08" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 <junction x="119.38" y="15.24"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="22.86" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="25.4" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="15.24" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="10.16" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
