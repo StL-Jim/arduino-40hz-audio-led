@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -454,14 +454,14 @@ I'm using it for where to start volate in.</description>
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="P$1" x="-3.81" y="-2.54" drill="1" shape="square"/>
-<pad name="P$2" x="-1.27" y="-2.54" drill="1" shape="square"/>
-<pad name="P$3" x="1.27" y="-2.54" drill="1" shape="square"/>
-<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
-<pad name="P$5" x="3.81" y="2.54" drill="1" shape="square"/>
-<pad name="P$6" x="1.27" y="2.54" drill="1" shape="square"/>
-<pad name="P$7" x="-1.27" y="2.54" drill="1" shape="square"/>
-<pad name="P$8" x="-3.81" y="2.54" drill="1" shape="square"/>
+<pad name="P$1" x="-3.81" y="-3.81" drill="1" shape="square"/>
+<pad name="P$2" x="-1.27" y="-3.81" drill="1" shape="square"/>
+<pad name="P$3" x="1.27" y="-3.81" drill="1" shape="square"/>
+<pad name="P$4" x="3.81" y="-3.81" drill="1" shape="square"/>
+<pad name="P$5" x="3.81" y="3.81" drill="1" shape="square"/>
+<pad name="P$6" x="1.27" y="3.81" drill="1" shape="square"/>
+<pad name="P$7" x="-1.27" y="3.81" drill="1" shape="square"/>
+<pad name="P$8" x="-3.81" y="3.81" drill="1" shape="square"/>
 </package>
 <package name="POTENTIOMETER-THRUHOLE">
 <description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
@@ -6994,7 +6994,6 @@ D9 - Jumpered to D8 for frequency check
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,83.82,83.82,U$7,P$2,,,,"/>
 <approved hash="101,1,-7.62,66.04,U$10,P$1,,,,"/>
 <approved hash="101,1,-7.62,55.88,U$11,P$1,,,,"/>
 <approved hash="101,1,-7.62,45.72,U$12,P$1,,,,"/>

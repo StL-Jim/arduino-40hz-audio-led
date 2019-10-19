@@ -191,7 +191,7 @@ Before that, and for reference I had:&lt;br&gt;
 <libraries>
 <library name="jim_muppet_parts">
 <packages>
-<package name="DIL08">
+<package name="DIL08-THRUHOLE">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
@@ -201,14 +201,14 @@ Before that, and for reference I had:&lt;br&gt;
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<smd name="1" x="-3.81" y="-5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="2" x="-1.27" y="-5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="3" x="1.27" y="-5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="4" x="3.81" y="-5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="5" x="3.81" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="6" x="1.27" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="7" x="-1.27" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
-<smd name="8" x="-3.81" y="5.08" dx="3.81" dy="1.27" layer="1" rot="R90"/>
+<pad name="P$1" x="-3.81" y="-2.54" drill="1" shape="square"/>
+<pad name="P$2" x="-1.27" y="-2.54" drill="1" shape="square"/>
+<pad name="P$3" x="1.27" y="-2.54" drill="1" shape="square"/>
+<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
+<pad name="P$5" x="3.81" y="2.54" drill="1" shape="square"/>
+<pad name="P$6" x="1.27" y="2.54" drill="1" shape="square"/>
+<pad name="P$7" x="-1.27" y="2.54" drill="1" shape="square"/>
+<pad name="P$8" x="-3.81" y="2.54" drill="1" shape="square"/>
 </package>
 <package name="POWER-IN-PAD-THRUHOLE">
 <description>Single pad 175mm square, no hole.
@@ -264,6 +264,13 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <text x="-7.874" y="4.826" size="1.27" layer="25">&gt;NAME</text>
 <text x="1.397" y="4.953" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="PROBE_POINT_1-THRUHOLE">
+<text x="-5.4356" y="-2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
+<circle x="-3.81" y="2.54" radius="2.05240625" width="1.27" layer="21"/>
+<circle x="-3.81" y="2.54" radius="2.921" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.81" y="2.54" drill="1" diameter="2.54"/>
+</package>
 <package name="PROBE_POINT_1">
 <text x="-5.4356" y="-2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
@@ -298,8 +305,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <description>Rounded rectangle solder pad - 150MIL</description>
 <pad name="PAD$1" x="0" y="0" drill="1" diameter="4.445" shape="offset"/>
 </package>
-<package name="DRILL-HOLE-4MM">
-<pad name="DRILL$1" x="0" y="0" drill="0.01" diameter="4"/>
+<package name="DRILL-HOLE-4MM-THRUHOLE">
+<pad name="DRILL$1" x="0" y="0" drill="1" diameter="4"/>
 </package>
 <package name="ARDUINO-NANO-THRUHOLE">
 <pad name="TX0" x="5.08" y="-8.89" drill="1" diameter="1.6764" shape="long"/>
@@ -1782,7 +1789,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="72.898" y="70.866" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.691" y="84.328" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="IC3" library="jim_muppet_parts" package="DIL08" value="LM741" x="21.082" y="26.67" smashed="yes">
+<element name="IC3" library="jim_muppet_parts" package="DIL08-THRUHOLE" value="LM741" x="21.082" y="26.67" smashed="yes">
 <attribute name="NAME" x="15.748" y="23.749" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="17.526" y="26.035" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -1826,11 +1833,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="34.036" y="17.272" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="35.941" y="20.066" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$5" library="jim_muppet_parts" package="PROBE_POINT_1" value="+/- 6v virt gnd" x="9.906" y="10.668" smashed="yes">
+<element name="U$5" library="jim_muppet_parts" package="PROBE_POINT_1-THRUHOLE" value="+/- 6v virt gnd" x="9.906" y="10.668" smashed="yes">
 <attribute name="NAME" x="2.286" y="11.3284" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-1.3716" y="8.128" size="1.778" layer="25" ratio="10"/>
 </element>
-<element name="P+3" library="jim_muppet_parts" package="POWER-IN-PAD" value="" x="70.612" y="64.008" smashed="yes" rot="R90"/>
+<element name="P+3" library="jim_muppet_parts" package="POWER-IN-PAD" value="" x="70.612" y="64.008" smashed="yes" rot="R270"/>
 <element name="JP2" library="jim_muppet_parts" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="32.512" y="55.372" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.544" y="51.435" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="29.972" y="52.451" size="1.27" layer="27" ratio="10"/>
@@ -1843,30 +1850,30 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.195" y="31.623" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="35.941" y="34.544" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$3" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="SINE out" x="71.628" y="7.366" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.7776" y="5.588" size="1.778" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="75.5396" y="10.922" size="1.778" layer="25" ratio="10" rot="R180"/>
+<element name="U$3" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="SINE out" x="71.374" y="7.366" smashed="yes">
+<attribute name="NAME" x="68.2244" y="9.144" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.4624" y="3.81" size="1.778" layer="25" ratio="10"/>
 </element>
 <element name="U$2" library="jim_muppet_parts" package="PROBE_POINT_1" value="-6v test point" x="34.29" y="4.572" smashed="yes">
 <attribute name="NAME" x="27.178" y="5.2324" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="25.5524" y="2.032" size="1.778" layer="25" ratio="10"/>
 </element>
-<element name="U$8" library="jim_muppet_parts" package="PROBE_POINT_1" value="+6v test point" x="21.844" y="39.878" smashed="yes">
+<element name="U$8" library="jim_muppet_parts" package="PROBE_POINT_1-THRUHOLE" value="+6v test point" x="21.844" y="39.878" smashed="yes">
 <attribute name="NAME" x="13.8684" y="46.482" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="11.0744" y="37.592" size="1.778" layer="25" ratio="10"/>
 </element>
-<element name="U$9" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="PAD-1PIN-RECTANGLE175" x="70.358" y="50.8" smashed="yes" rot="R90"/>
-<element name="U$10" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="5.08" y="5.334" smashed="yes"/>
-<element name="U$11" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="62.992" y="4.318" smashed="yes"/>
-<element name="U$12" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="72.898" y="103.124" smashed="yes"/>
-<element name="U$13" library="jim_muppet_parts" package="DRILL-HOLE-4MM" value="DRILL-HOLE-4MM" x="8.128" y="97.79" smashed="yes"/>
+<element name="U$9" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="PAD-1PIN-RECTANGLE175" x="70.358" y="50.8" smashed="yes" rot="R270"/>
+<element name="U$10" library="jim_muppet_parts" package="DRILL-HOLE-4MM-THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE" x="5.08" y="5.334" smashed="yes"/>
+<element name="U$11" library="jim_muppet_parts" package="DRILL-HOLE-4MM-THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE" x="62.992" y="4.318" smashed="yes"/>
+<element name="U$12" library="jim_muppet_parts" package="DRILL-HOLE-4MM-THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE" x="72.898" y="103.124" smashed="yes"/>
+<element name="U$13" library="jim_muppet_parts" package="DRILL-HOLE-4MM-THRUHOLE" value="DRILL-HOLE-4MMTHRUHOLE" x="8.128" y="97.79" smashed="yes"/>
 <element name="U$4" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="SCL" x="38.1" y="102.108" smashed="yes" rot="R90">
 <attribute name="SDA" value="SDA" x="42.418" y="100.076" size="1.778" layer="27" rot="R90" display="name"/>
 </element>
 <element name="U$6" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="PAD-1PIN-RECTANGLE175" x="45.466" y="102.108" smashed="yes" rot="R90">
 <attribute name="SCL" value="SCL" x="48.006" y="104.902" size="1.778" layer="27" rot="R270" display="name"/>
 </element>
-<element name="U$14" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="PAD-1PIN-RECTANGLE175" x="71.882" y="91.694" smashed="yes"/>
+<element name="U$14" library="jim_muppet_parts" package="PAD-RECTANGLE-175MIL-THRUHOLE" value="PAD-1PIN-RECTANGLE175" x="71.374" y="91.694" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1894,7 +1901,7 @@ design rules under a new name.</description>
 <contactref element="P+1" pad="VCC"/>
 <contactref element="IC1" pad="IN"/>
 <contactref element="C2" pad="1"/>
-<contactref element="IC3" pad="7"/>
+<contactref element="IC3" pad="P$7"/>
 <contactref element="R5" pad="P$2"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="U$8" pad="P$1"/>
@@ -1907,7 +1914,9 @@ design rules under a new name.</description>
 <wire x1="14.986" y1="96.266" x2="14.986" y2="99.822" width="1.524" layer="16"/>
 <wire x1="8.128" y1="42.418" x2="6.35" y2="42.418" width="1.524" layer="16"/>
 <wire x1="6.35" y1="42.418" x2="6.35" y2="87.63" width="1.524" layer="16"/>
-<wire x1="18.034" y1="42.418" x2="19.812" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="18.034" y1="32.02358125" x2="18.034" y2="42.418" width="1.524" layer="16"/>
+<wire x1="19.812" y1="29.21" x2="19.812" y2="30.24558125" width="1.524" layer="16"/>
+<wire x1="19.812" y1="30.24558125" x2="18.034" y2="32.02358125" width="1.524" layer="16"/>
 </signal>
 <signal name="+5V" class="2">
 <contactref element="IC1" pad="OUT"/>
@@ -1954,7 +1963,6 @@ design rules under a new name.</description>
 <contactref element="R7" pad="2"/>
 <contactref element="VOLUME" pad="2"/>
 <contactref element="U$14" pad="PAD$1"/>
-<wire x1="61.595" y1="105.029" x2="61.722" y2="104.902" width="1.524" layer="1" curve="-90"/>
 <wire x1="57.658" y1="83.566" x2="57.658" y2="81.026" width="1.524" layer="16"/>
 <wire x1="65.532" y1="81.026" x2="57.658" y2="81.026" width="1.524" layer="16"/>
 <wire x1="71.882" y1="91.694" x2="67.818" y2="87.63" width="1.524" layer="16"/>
@@ -1989,12 +1997,14 @@ design rules under a new name.</description>
 <wire x1="57.658" y1="12.954" x2="57.658" y2="21.59" width="1.524" layer="16"/>
 </signal>
 <signal name="N$13" class="2">
-<contactref element="IC3" pad="6"/>
+<contactref element="IC3" pad="P$6"/>
 <contactref element="R1" pad="P$2"/>
 <contactref element="R8" pad="P$1"/>
 <wire x1="34.036" y1="38.1" x2="36.83" y2="40.894" width="1.524" layer="16"/>
 <wire x1="36.83" y1="40.894" x2="47.498" y2="40.894" width="1.524" layer="16"/>
-<wire x1="22.352" y1="31.75" x2="34.036" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="22.352" y1="29.21" x2="22.352" y2="34.544" width="1.524" layer="16"/>
+<wire x1="22.352" y1="34.544" x2="25.908" y2="38.1" width="1.524" layer="16"/>
+<wire x1="25.908" y1="38.1" x2="34.036" y2="38.1" width="1.524" layer="16"/>
 </signal>
 <signal name="N$14" class="2">
 <contactref element="U$1" pad="A4"/>
@@ -2032,11 +2042,15 @@ design rules under a new name.</description>
 <wire x1="32.766" y1="63.246" x2="32.766" y2="66.802" width="1.524" layer="16"/>
 </signal>
 <signal name="N$10" class="2">
-<contactref element="IC3" pad="2"/>
+<contactref element="IC3" pad="P$2"/>
 <contactref element="R7" pad="1"/>
 <contactref element="R8" pad="P$2"/>
-<wire x1="34.036" y1="27.94" x2="34.036" y2="19.812" width="1.524" layer="16"/>
-<wire x1="19.812" y1="21.59" x2="34.036" y2="19.812" width="0" layer="19" extent="1-1"/>
+<wire x1="34.036" y1="27.94" x2="34.036" y2="26.67" width="1.524" layer="16"/>
+<wire x1="34.036" y1="26.67" x2="34.036" y2="19.812" width="1.524" layer="16"/>
+<wire x1="19.812" y1="24.13" x2="20.136" y2="24.454" width="1.524" layer="16"/>
+<wire x1="20.136" y1="24.454" x2="20.136" y2="25.48958125" width="1.524" layer="16"/>
+<wire x1="20.136" y1="25.48958125" x2="21.31641875" y2="26.67" width="1.524" layer="16"/>
+<wire x1="21.31641875" y1="26.67" x2="34.036" y2="26.67" width="1.524" layer="16"/>
 </signal>
 <signal name="N$11" class="2">
 <contactref element="U$9" pad="PAD$1"/>
@@ -2052,15 +2066,16 @@ design rules under a new name.</description>
 <contactref element="R6" pad="P$2"/>
 <contactref element="U$5" pad="P$1"/>
 <contactref element="R5" pad="P$1"/>
-<contactref element="IC3" pad="4"/>
+<contactref element="IC3" pad="P$4"/>
 <contactref element="U$2" pad="P$1"/>
-<wire x1="13.716" y1="7.366" x2="30.226" y2="7.366" width="1.524" layer="16"/>
+<wire x1="13.716" y1="7.366" x2="24.892" y2="7.366" width="1.524" layer="16"/>
+<wire x1="24.892" y1="7.366" x2="30.226" y2="7.366" width="1.524" layer="16"/>
 <wire x1="30.226" y1="7.366" x2="30.48" y2="7.112" width="1.524" layer="16"/>
 <wire x1="6.096" y1="13.208" x2="6.096" y2="24.638" width="1.524" layer="16"/>
 <wire x1="6.096" y1="24.638" x2="6.35" y2="24.892" width="1.524" layer="16"/>
 <wire x1="13.716" y1="7.366" x2="11.938" y2="7.366" width="1.524" layer="16"/>
 <wire x1="11.938" y1="7.366" x2="6.096" y2="13.208" width="1.524" layer="16"/>
-<wire x1="30.226" y1="7.366" x2="24.892" y2="21.59" width="0" layer="19" extent="1-16"/>
+<wire x1="24.892" y1="24.13" x2="24.892" y2="7.366" width="1.524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2071,17 +2086,22 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="1,20,fffefffefffefffe"/>
-<approved hash="1,20,fffefffefffefffe"/>
-<approved hash="1,20,fefffefffefffeff"/>
-<approved hash="1,20,fffefffefffefffe"/>
 <approved hash="23,16,7e620b960a737f87"/>
-<approved hash="23,16,e19415e01b15ef61"/>
-<approved hash="23,16,19938f6788081efc"/>
 <approved hash="23,16,d0152ae8e2347f2f"/>
 <approved hash="23,16,d61e63ea622dd7d9"/>
 <approved hash="21,19,102d12d1ecd110d3"/>
 <approved hash="21,19,6130633263326130"/>
+<approved hash="23,16,9f8b0f7f0cb29c46"/>
+<approved hash="23,16,9c5683a280df9f2b"/>
+<approved hash="23,16,78d184a3698bf8c7"/>
+<approved hash="23,16,9c03c8f7ce089afc"/>
+<approved hash="23,16,781b21d99028a680"/>
+<approved hash="23,16,8c2a3fde3e398dcd"/>
+<approved hash="23,16,e3fe12020e35dbe5"/>
+<approved hash="23,16,dcaf2b6da1683df8"/>
+<approved hash="23,16,7cb6f542f0657991"/>
+<approved hash="23,16,976ebf9abeed9619"/>
+<approved hash="23,16,03b369476f3905cd"/>
 </errors>
 </board>
 </drawing>
